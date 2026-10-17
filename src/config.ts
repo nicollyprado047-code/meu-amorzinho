@@ -14,7 +14,7 @@
 // Substitua o arquivo em /public/music.mp3 por sua música
 // OU altere o caminho abaixo para apontar para outro arquivo.
 // Formatos suportados: mp3, ogg, wav, m4a
-export const MUSIC_SRC = '/music.mp3';
+export const MUSIC_SRC = `${import.meta.env.BASE_URL}music.mp3`;
 export const MUSIC_VOLUME = 0.45; // 0 a 1
 
 // ─────────────────────────────────────────────
@@ -42,7 +42,7 @@ export const LETTER = {
   paragraphs: [
     'Eu não sei bem por onde começar. Talvez porque, quando algo importa demais, as palavras sempre parecem pequenas demais.',
     'Mas eu sei que eu queria te dar algo que não coubesse num embrulho. Algo que ficasse com você para sempre. E que mesmo que você não pudesse tocar, pelo menos pudesse sentir.',
-    'Eu pensei em cada detalhe disso aqui. Cada cor, cada palavra, cada segundo que você vai passar olhando. E enquanto eu montava, eu sorria — porque sabia que, em algum momento, você estaria aqui, lendo com esses olhinhos apaixonantes.',
+    'Eu pensei em cada detalhe disso aqui. Cada cor, cada palavra, cada segundo que você vai passar olhando. E enquanto eu montava, eu sorria — porque sabia que, em algum momento, você estaria aqui, lendo com esses olhos apaixonantes.',
     'Isso não é apenas um site. É um modo de dizer que você existe de um jeito que mudou a minha forma de olhar pra coisas simples, mesmo que daí.',
   ],
   closing: 'Se já está aqui...\nacho que já pode continuar :).',
